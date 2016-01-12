@@ -12,6 +12,13 @@
 
 @end
 
+#define FB 1
+#define WA 2
+#define FBM 3
+#define IG 4
+#define IM 5
+#define TW 6
+
 @implementation RcShareKitViewController
 
 - (void)viewDidLoad {
@@ -37,6 +44,50 @@
 #pragma mark Events
 
 - (IBAction)btnShareButtonClick:(id)sender {
+    
+    ShareHelper* sHelper = [ShareHelper shareHelperInit];
+    sHelper.parentviewcontroller = self.parentViewController;
+    
+    switch (((UIButton*)sender).tag) {
+        case FB:
+            [sHelper shareAction:FACEBOOK ShareText:@"Hey ..My share"
+                      ShareImage:self.parentViewController.imgShare.image completion:^(BOOL status) {
+                
+            }];
+            break;
+        case WA:
+            [sHelper shareAction:WHATSAPP ShareText:@"Hey ..My share"
+                      ShareImage:self.parentViewController.imgShare.image completion:^(BOOL status) {
+                          
+                      }];
+            break;
+        case FBM:
+            [sHelper shareAction:FACEBOOKMESSANGER ShareText:@"Hey ..My share"
+                      ShareImage:self.parentViewController.imgShare.image completion:^(BOOL status) {
+                          
+                      }];
+            break;
+        case IG:
+            [sHelper shareAction:INSTAGRAM ShareText:@"Hey ..My share"
+                      ShareImage:self.parentViewController.imgShare.image completion:^(BOOL status) {
+                          
+                      }];
+            break;
+        case IM:
+            [sHelper shareAction:MESSAGE ShareText:@"Hey ..My share"
+                      ShareImage:self.parentViewController.imgShare.image completion:^(BOOL status) {
+                          
+                      }];
+            break;
+        case TW:
+            [sHelper shareAction:TWITTER ShareText:@"Hey ..My share"
+                      ShareImage:self.parentViewController.imgShare.image completion:^(BOOL status) {
+                          
+                      }];
+            break;
+        default:
+            break;
+    }
     
 }
 - (IBAction)btnCancel:(id)sender {

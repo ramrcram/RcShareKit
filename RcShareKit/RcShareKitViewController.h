@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "ViewController.h"
+#import "ShareHelper.h"
 
 @interface RcShareKitViewController : UIViewController
 
