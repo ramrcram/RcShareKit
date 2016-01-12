@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C3BDCBA1C44DC2300941351 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3BDCB91C44DC2300941351 /* main.m */; };
+		0C3BDCBD1C44DC2300941351 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3BDCBC1C44DC2300941351 /* AppDelegate.m */; };
+		0C3BDCC01C44DC2300941351 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3BDCBF1C44DC2300941351 /* ViewController.m */; };
+		0C3BDCC31C44DC2300941351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3BDCC11C44DC2300941351 /* Main.storyboard */; };
+		0C3BDCC51C44DC2300941351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C3BDCC41C44DC2300941351 /* Assets.xcassets */; };
+		0C3BDCC81C44DC2300941351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3BDCC61C44DC2300941351 /* LaunchScreen.storyboard */; };
+		0C3BDCE61C44DCB200941351 /* RCFaceBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3BDCD21C44DCB200941351 /* RCFaceBook.m */; };
+		0C3BDCE71C44DCB200941351 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3BDCD41C44DCB200941351 /* FBSDKCoreKit.framework */; };
+		0C3BDCE81C44DCB200941351 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3BDCD51C44DCB200941351 /* FBSDKLoginKit.framework */; };
+		0C3BDCE91C44DCB200941351 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3BDCD61C44DCB200941351 /* FBSDKMessengerShareKit.framework */; };
+		0C3BDCEA1C44DCB200941351 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3BDCD71C44DCB200941351 /* FBSDKShareKit.framework */; };
+		0C3BDCEB1C44DCB200941351 /* RCiMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3BDCDA1C44DCB200941351 /* RCiMessage.m */; };
+		0C3BDCEC1C44DCB200941351 /* RCInstagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3BDCDD1C44DCB200941351 /* RCInstagram.m */; };
+		0C3BDCED1C44DCB200941351 /* ShareHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3BDCDF1C44DCB200941351 /* ShareHelper.m */; };
+		0C3BDCEE1C44DCB200941351 /* RCTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3BDCE21C44DCB200941351 /* RCTwitter.m */; };
+		0C3BDCEF1C44DCB200941351 /* RCWhatsApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3BDCE51C44DCB200941351 /* RCWhatsApp.m */; };
+		0C3BDCF21C44E35D00941351 /* RcShareKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3BDCF11C44E35D00941351 /* RcShareKitViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C3BDCB51C44DC2300941351 /* RcShareKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RcShareKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C3BDCB91C44DC2300941351 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C3BDCBB1C44DC2300941351 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C3BDCBC1C44DC2300941351 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C3BDCBE1C44DC2300941351 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C3BDCBF1C44DC2300941351 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C3BDCC21C44DC2300941351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C3BDCC41C44DC2300941351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C3BDCC71C44DC2300941351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C3BDCC91C44DC2300941351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C3BDCD11C44DCB200941351 /* RCFaceBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCFaceBook.h; sourceTree = "<group>"; };
+		0C3BDCD21C44DCB200941351 /* RCFaceBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCFaceBook.m; sourceTree = "<group>"; };
+		0C3BDCD41C44DCB200941351 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		0C3BDCD51C44DCB200941351 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		0C3BDCD61C44DCB200941351 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		0C3BDCD71C44DCB200941351 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		0C3BDCD91C44DCB200941351 /* RCiMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCiMessage.h; sourceTree = "<group>"; };
+		0C3BDCDA1C44DCB200941351 /* RCiMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCiMessage.m; sourceTree = "<group>"; };
+		0C3BDCDC1C44DCB200941351 /* RCInstagram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCInstagram.h; sourceTree = "<group>"; };
+		0C3BDCDD1C44DCB200941351 /* RCInstagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCInstagram.m; sourceTree = "<group>"; };
+		0C3BDCDE1C44DCB200941351 /* ShareHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareHelper.h; sourceTree = "<group>"; };
+		0C3BDCDF1C44DCB200941351 /* ShareHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareHelper.m; sourceTree = "<group>"; };
+		0C3BDCE11C44DCB200941351 /* RCTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTwitter.h; sourceTree = "<group>"; };
+		0C3BDCE21C44DCB200941351 /* RCTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTwitter.m; sourceTree = "<group>"; };
+		0C3BDCE41C44DCB200941351 /* RCWhatsApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWhatsApp.h; sourceTree = "<group>"; };
+		0C3BDCE51C44DCB200941351 /* RCWhatsApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWhatsApp.m; sourceTree = "<group>"; };
+		0C3BDCF01C44E35D00941351 /* RcShareKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RcShareKitViewController.h; sourceTree = "<group>"; };
+		0C3BDCF11C44E35D00941351 /* RcShareKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RcShareKitViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C3BDCB21C44DC2300941351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3BDCEA1C44DCB200941351 /* FBSDKShareKit.framework in Frameworks */,
+				0C3BDCE81C44DCB200941351 /* FBSDKLoginKit.framework in Frameworks */,
+				0C3BDCE91C44DCB200941351 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				0C3BDCE71C44DCB200941351 /* FBSDKCoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C3BDCAC1C44DC2300941351 = {
+			isa = PBXGroup;
+			children = (
+				0C3BDCB71C44DC2300941351 /* RcShareKit */,
+				0C3BDCB61C44DC2300941351 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C3BDCB61C44DC2300941351 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C3BDCB51C44DC2300941351 /* RcShareKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C3BDCB71C44DC2300941351 /* RcShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				0C3BDCCF1C44DCB200941351 /* RcShareKit */,
+				0C3BDCBB1C44DC2300941351 /* AppDelegate.h */,
+				0C3BDCBC1C44DC2300941351 /* AppDelegate.m */,
+				0C3BDCBE1C44DC2300941351 /* ViewController.h */,
+				0C3BDCBF1C44DC2300941351 /* ViewController.m */,
+				0C3BDCC11C44DC2300941351 /* Main.storyboard */,
+				0C3BDCC41C44DC2300941351 /* Assets.xcassets */,
+				0C3BDCC61C44DC2300941351 /* LaunchScreen.storyboard */,
+				0C3BDCC91C44DC2300941351 /* Info.plist */,
+				0C3BDCB81C44DC2300941351 /* Supporting Files */,
+				0C3BDCF01C44E35D00941351 /* RcShareKitViewController.h */,
+				0C3BDCF11C44E35D00941351 /* RcShareKitViewController.m */,
+			);
+			path = RcShareKit;
+			sourceTree = "<group>";
+		};
+		0C3BDCB81C44DC2300941351 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C3BDCB91C44DC2300941351 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C3BDCCF1C44DCB200941351 /* RcShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				0C3BDCD01C44DCB200941351 /* FaceBook */,
+				0C3BDCD31C44DCB200941351 /* Framework */,
+				0C3BDCD81C44DCB200941351 /* iMeesage */,
+				0C3BDCDB1C44DCB200941351 /* Instagarm */,
+				0C3BDCDE1C44DCB200941351 /* ShareHelper.h */,
+				0C3BDCDF1C44DCB200941351 /* ShareHelper.m */,
+				0C3BDCE01C44DCB200941351 /* Twitter */,
+				0C3BDCE31C44DCB200941351 /* WhatsApp */,
+			);
+			path = RcShareKit;
+			sourceTree = "<group>";
+		};
+		0C3BDCD01C44DCB200941351 /* FaceBook */ = {
+			isa = PBXGroup;
+			children = (
+				0C3BDCD11C44DCB200941351 /* RCFaceBook.h */,
+				0C3BDCD21C44DCB200941351 /* RCFaceBook.m */,
+			);
+			path = FaceBook;
+			sourceTree = "<group>";
+		};
+		0C3BDCD31C44DCB200941351 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				0C3BDCD41C44DCB200941351 /* FBSDKCoreKit.framework */,
+				0C3BDCD51C44DCB200941351 /* FBSDKLoginKit.framework */,
+				0C3BDCD61C44DCB200941351 /* FBSDKMessengerShareKit.framework */,
+				0C3BDCD71C44DCB200941351 /* FBSDKShareKit.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		0C3BDCD81C44DCB200941351 /* iMeesage */ = {
+			isa = PBXGroup;
+			children = (
+				0C3BDCD91C44DCB200941351 /* RCiMessage.h */,
+				0C3BDCDA1C44DCB200941351 /* RCiMessage.m */,
+			);
+			path = iMeesage;
+			sourceTree = "<group>";
+		};
+		0C3BDCDB1C44DCB200941351 /* Instagarm */ = {
+			isa = PBXGroup;
+			children = (
+				0C3BDCDC1C44DCB200941351 /* RCInstagram.h */,
+				0C3BDCDD1C44DCB200941351 /* RCInstagram.m */,
+			);
+			path = Instagarm;
+			sourceTree = "<group>";
+		};
+		0C3BDCE01C44DCB200941351 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				0C3BDCE11C44DCB200941351 /* RCTwitter.h */,
+				0C3BDCE21C44DCB200941351 /* RCTwitter.m */,
+			);
+			path = Twitter;
+			sourceTree = "<group>";
+		};
+		0C3BDCE31C44DCB200941351 /* WhatsApp */ = {
+			isa = PBXGroup;
+			children = (
+				0C3BDCE41C44DCB200941351 /* RCWhatsApp.h */,
+				0C3BDCE51C44DCB200941351 /* RCWhatsApp.m */,
+			);
+			path = WhatsApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C3BDCB41C44DC2300941351 /* RcShareKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C3BDCCC1C44DC2300941351 /* Build configuration list for PBXNativeTarget "RcShareKit" */;
+			buildPhases = (
+				0C3BDCB11C44DC2300941351 /* Sources */,
+				0C3BDCB21C44DC2300941351 /* Frameworks */,
+				0C3BDCB31C44DC2300941351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RcShareKit;
+			productName = RcShareKit;
+			productReference = 0C3BDCB51C44DC2300941351 /* RcShareKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C3BDCAD1C44DC2300941351 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = rubictechnologies;
+				TargetAttributes = {
+					0C3BDCB41C44DC2300941351 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 0C3BDCB01C44DC2300941351 /* Build configuration list for PBXProject "RcShareKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C3BDCAC1C44DC2300941351;
+			productRefGroup = 0C3BDCB61C44DC2300941351 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C3BDCB41C44DC2300941351 /* RcShareKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C3BDCB31C44DC2300941351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3BDCC81C44DC2300941351 /* LaunchScreen.storyboard in Resources */,
+				0C3BDCC51C44DC2300941351 /* Assets.xcassets in Resources */,
+				0C3BDCC31C44DC2300941351 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C3BDCB11C44DC2300941351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3BDCEF1C44DCB200941351 /* RCWhatsApp.m in Sources */,
+				0C3BDCC01C44DC2300941351 /* ViewController.m in Sources */,
+				0C3BDCF21C44E35D00941351 /* RcShareKitViewController.m in Sources */,
+				0C3BDCEB1C44DCB200941351 /* RCiMessage.m in Sources */,
+				0C3BDCBD1C44DC2300941351 /* AppDelegate.m in Sources */,
+				0C3BDCED1C44DCB200941351 /* ShareHelper.m in Sources */,
+				0C3BDCEC1C44DCB200941351 /* RCInstagram.m in Sources */,
+				0C3BDCE61C44DCB200941351 /* RCFaceBook.m in Sources */,
+				0C3BDCEE1C44DCB200941351 /* RCTwitter.m in Sources */,
+				0C3BDCBA1C44DC2300941351 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C3BDCC11C44DC2300941351 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C3BDCC21C44DC2300941351 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C3BDCC61C44DC2300941351 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C3BDCC71C44DC2300941351 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C3BDCCA1C44DC2300941351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C3BDCCB1C44DC2300941351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C3BDCCD1C44DC2300941351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RcShareKit/RcShareKit/Framework",
+				);
+				INFOPLIST_FILE = RcShareKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.rubictechnologies.RcShareKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C3BDCCE1C44DC2300941351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RcShareKit/RcShareKit/Framework",
+				);
+				INFOPLIST_FILE = RcShareKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.rubictechnologies.RcShareKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C3BDCB01C44DC2300941351 /* Build configuration list for PBXProject "RcShareKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3BDCCA1C44DC2300941351 /* Debug */,
+				0C3BDCCB1C44DC2300941351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C3BDCCC1C44DC2300941351 /* Build configuration list for PBXNativeTarget "RcShareKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3BDCCD1C44DC2300941351 /* Debug */,
+				0C3BDCCE1C44DC2300941351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C3BDCAD1C44DC2300941351 /* Project object */;
+}
