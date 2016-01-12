@@ -12,5 +12,8 @@
 
 @property (weak, nonatomic) IBOutlet UIView *RcShareViewHolder;
 
+
+-(void)CloseShareWithAnimation;
+
 @end
 

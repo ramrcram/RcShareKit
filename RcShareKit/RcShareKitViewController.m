@@ -39,5 +39,8 @@
 - (IBAction)btnShareButtonClick:(id)sender {
     
 }
+- (IBAction)btnCancel:(id)sender {
+    [self.parentViewController CloseShareWithAnimation];
+}
 
 @end

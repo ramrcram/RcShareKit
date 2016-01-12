@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
 
 @interface RcShareKitViewController : UIViewController
 
+@property (nonatomic, strong) ViewController *parentViewController;
 @end

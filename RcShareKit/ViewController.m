@@ -30,8 +30,40 @@
 
 -(void)prepareSubView{
     CGRect holderViewFrame = self.RcShareViewHolder.frame;
-    holderViewFrame.origin.y = - holderViewFrame.size.height;
+    holderViewFrame.origin.y = self.view.frame.size.height + holderViewFrame.size.height;
     self.RcShareViewHolder.frame = holderViewFrame;
 }
+
+-(void)openShareViewHolde{
+    CGRect holderViewFrame = self.RcShareViewHolder.frame;
+    holderViewFrame.origin.y = self.view.frame.size.height - holderViewFrame.size.height;
+    self.RcShareViewHolder.frame = holderViewFrame;
+}
+-(void)closeShareViewHolde{
+    CGRect holderViewFrame = self.RcShareViewHolder.frame;
+    holderViewFrame.origin.y = self.view.frame.size.height + holderViewFrame.size.height;
+    self.RcShareViewHolder.frame = holderViewFrame;
+}
+
+-(void)CloseShareWithAnimation{
+    [UIView animateWithDuration:.6 delay:0 usingSpringWithDamping:100 initialSpringVelocity:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+        [self closeShareViewHolde];
+    } completion:^(BOOL finished) {
+        
+    }];
+}
+
+#pragma mark Events
+
+- (IBAction)btnShareClick:(id)sender {
+    
+    [UIView animateWithDuration:.6 delay:0 usingSpringWithDamping:100 initialSpringVelocity:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+        [self openShareViewHolde];
+    } completion:^(BOOL finished) {
+        
+    }];
+
+}
+
 
 @end
